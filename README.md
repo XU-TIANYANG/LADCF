@@ -13,8 +13,8 @@ Learning Adaptive Discriminative Correlation Filter on Low-dimensional Manifold 
 
 #### Dependencies:
 - [PDollar Toolbox](https://pdollar.github.io/toolbox)
-- mtimesx (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mexResize)
-- mexResize (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mtimesx) 
+- mtimesx (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mtimesx)
+- mexResize (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mexResize) 
 
 #### Operating system:
 Ubuntu 14.04 LTS, Matlab R2016a, CPU Intel(R) Xeon(R) E5-2643 
