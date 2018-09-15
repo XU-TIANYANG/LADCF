@@ -1,10 +1,15 @@
 Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Temporal Consistency preserving Spatial Feature Selection for Robust Visual Tracking (https://arxiv.org/abs/1807.11348)
 
 @article{xu2018learning,
+
   title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Tracking},
+  
   author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
+  
   journal={arXiv preprint arXiv:1807.11348},
+  
   year={2018}
+  
 }
 
 Instruction for LADCF_HC Tracker:
