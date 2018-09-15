@@ -1,6 +1,11 @@
 Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Temporal Consistency preserving Spatial Feature Selection for Robust Visual Tracking (https://arxiv.org/abs/1807.11348)
 
-Xu, Tianyang, Zhen-Hua Feng, Xiao-Jun Wu, and Josef Kittler. "Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Tracking." arXiv preprint arXiv:1807.11348 (2018).
+@article{xu2018learning,
+  title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Tracking},
+  author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
+  journal={arXiv preprint arXiv:1807.11348},
+  year={2018}
+}
 
 Instruction for LADCF_HC Tracker:
 Learning Adaptive Discriminative Correlation Filter on Low-dimensional Manifold (LADCF) utilises adaptive spatial regularizer to train low-dimensional discriminative correlation filters. We follow a single-frame learning and updating strategy: the filters are learned after tracking stage and then updated using a fixed rate [1]. We use HOG [2] and CN [3]. Code modules refer to ECO [4] in feature extraction.
