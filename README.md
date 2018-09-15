@@ -12,7 +12,9 @@ Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Tempor
 Learning Adaptive Discriminative Correlation Filter on Low-dimensional Manifold (LADCF) utilises adaptive spatial regularizer to train low-dimensional discriminative correlation filters. We follow a single-frame learning and updating strategy: the filters are learned after tracking stage and then updated using a fixed rate [1]. We use HOG [2] and CN [3]. Code modules refer to ECO [4] in feature extraction.
 
 #### Dependencies:
-PDollar Toolbox [5], mtimesx and mexResize. 
+- [PDollar Toolbox](https://pdollar.github.io/toolbox)
+- mtimesx (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mexResize)
+- mexResize (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mtimesx) 
 
 #### Operating system:
 Ubuntu 14.04 LTS, Matlab R2016a, CPU Intel(R) Xeon(R) E5-2643 
@@ -22,6 +24,5 @@ Ubuntu 14.04 LTS, Matlab R2016a, CPU Intel(R) Xeon(R) E5-2643
 - [2] Dalal, Navneet, and Bill Triggs. "Histograms of oriented gradients for human detection." Computer Vision and Pattern Recognition, 2005. CVPR 2005. 
 - [3] Van De Weijer, Joost, et al. "Learning color names for real-world applications." IEEE Transactions on Image Processing 18.7 (2009): 1512-1523.
 - [4] Danelljan, Martin, et al. "Eco: Efficient convolution operators for tracking." Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
-- [5] [PDollar Toolbox](https://pdollar.github.io/toolbox)  
 
 
