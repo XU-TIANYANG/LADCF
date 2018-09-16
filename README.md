@@ -8,6 +8,9 @@ Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Tempor
   journal={arXiv preprint arXiv:1807.11348},
   year={2018}}
 
+### The tracker codes for VOT2018 can be [download here](https://github.com/XU-TIANYANG/LADCF_VOT). 
+More powerful features and data augmentation techniques are added for the VOT2018.
+
 ### Instruction for LADCF_HC Tracker:
 Learning Adaptive Discriminative Correlation Filter on Low-dimensional Manifold (LADCF) utilises adaptive spatial regularizer to train low-dimensional discriminative correlation filters. We follow a single-frame learning and updating strategy: the filters are learned after tracking stage and then updated using a fixed rate [1]. We use HOG [2] and CN [3]. Code modules refer to ECO [4] in feature extraction.
 
