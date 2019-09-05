@@ -2,11 +2,15 @@
 Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Temporal Consistency preserving Spatial Feature Selection for Robust Visual Tracking
 
 ## [Download the Paper](https://www.researchgate.net/publication/326696472_Learning_Adaptive_Discriminative_Correlation_Filters_via_Temporal_Consistency_Preserving_Spatial_Feature_Selection_for_Robust_Visual_Tracking)
->@article{xu2018learning,
-  title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Tracking},
+>@article{xu2019learning,
+  title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking},
   author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
-  journal={arXiv preprint arXiv:1807.11348},
-  year={2018}}
+  journal={IEEE Transactions on Image Processing},
+  pages={5596--5609},
+  volume={28},
+  number={11},
+  year={2019}
+}
 
 ### The tracker codes for VOT2018 can be [download here](https://github.com/XU-TIANYANG/LADCF_VOT). 
 More powerful features and data augmentation techniques are added for the VOT2018.

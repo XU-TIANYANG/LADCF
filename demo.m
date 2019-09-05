@@ -1,12 +1,15 @@
-%%  demo for Learning Adaptive Discriminative Correlation Filter via 
-%   Temporal Consistency Preserved Feature Selection Embedded Visual Tracking
+%%  demo for paper "Learning Adaptive Discriminative Correlation Filters 
+%%  via Temporal Consistency Preserving Spatial Feature Selection for 
+%%  Robust Visual Object Tracking
+
+
 close all;
 
 % Add paths
 setup_paths();
 
-%  Load video 
-base_path  = './sequences';
+%  Load video information
+base_path  = './tracker_seque'; % (or OTB root path)
 video = choose_video(base_path);
 video_path = [base_path '/' video];
 [seq, gt_boxes] = load_video(video_path,video);

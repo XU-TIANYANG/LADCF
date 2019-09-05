@@ -5,23 +5,23 @@ function setup_paths()
 [pathstr, name, ext] = fileparts(mfilename('fullpath'));
 
 % Tracker implementation
-addpath(genpath([pathstr '/implementation/']));
+addpath(genpath([pathstr '/tracker_imple/']));
 
 % Utilities
-addpath([pathstr '/utils/']);
+addpath([pathstr '/tracker_utils/']);
 
 % The feature extraction
-addpath(genpath([pathstr '/feature_extraction/']));
+addpath(genpath([pathstr '/tracker_featu/']));
 
 % Matconvnet
-addpath([pathstr '/external_libs/matconvnet/matlab']);
-addpath([pathstr '/external_libs/matconvnet/matlab/simplenn']);
+% addpath([pathstr '/tracker_exter/matconvnet/matlab']);
+% addpath([pathstr '/tracker_exter/matconvnet/matlab/simplenn']);
 
 % PDollar toolbox
-addpath(genpath([pathstr '/external_libs/pdollar_toolbox/channels']));
+addpath(genpath([pathstr '/tracker_exter/pdollar_toolbox/channels']));
 
 % Mtimesx
-addpath([pathstr '/external_libs/mtimesx/']);
+addpath([pathstr '/tracker_exter/mtimesx/']);
 
 % mexResize
-addpath([pathstr '/external_libs/mexResize/']);
+addpath([pathstr '/tracker_exter/mexResize/']);
