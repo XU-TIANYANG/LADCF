@@ -1,16 +1,19 @@
 # LADCF - No 1 Algorithm on the public dataset of [VOT2018](http://www.votchallenge.net/vot2018/)
-Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Temporal Consistency preserving Spatial Feature Selection for Robust Visual Tracking
+Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking
 
-## [Download the Paper](https://www.researchgate.net/publication/326696472_Learning_Adaptive_Discriminative_Correlation_Filters_via_Temporal_Consistency_Preserving_Spatial_Feature_Selection_for_Robust_Visual_Tracking)
+## [Download the Paper](https://ieeexplore.ieee.org/document/8728173)
 >@article{xu2019learning,
-  title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking},
-  author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
-  journal={IEEE Transactions on Image Processing},
-  pages={5596--5609},
-  volume={28},
-  number={11},
-  year={2019}
-}
+ - title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking},
+ - author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
+ - journal={IEEE Transactions on Image Processing},
+ - pages={5596--5609},
+ - volume={28},
+ - number={11},
+ - year={2019}
+- }
+
+## The tracker codes for ICCV2019 can be [download here](https://github.com/XU-TIANYANG/GFS-DCF). 
+More group feature selection strategies are explored.
 
 ### The tracker codes for VOT2018 can be [download here](https://github.com/XU-TIANYANG/LADCF_VOT). 
 More powerful features and data augmentation techniques are added for the VOT2018.
@@ -32,4 +35,7 @@ Ubuntu 14.04 LTS, Matlab R2016a, CPU Intel(R) Xeon(R) E5-2643
 - [3] Van De Weijer, Joost, et al. "Learning color names for real-world applications." IEEE Transactions on Image Processing 18.7 (2009): 1512-1523.
 - [4] Danelljan, Martin, et al. "Eco: Efficient convolution operators for tracking." Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
+#### Raw Results:
+[OTB100(hand-crafted feature)](https://github.com/XU-TIANYANG/cakes/raw/master/LADCF_HC_OTB100_results.zip)
+[OTB100(deep feature)](https://github.com/XU-TIANYANG/cakes/raw/master/LADCF_OTB100_results.zip)
 
