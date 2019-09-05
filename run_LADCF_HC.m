@@ -47,7 +47,6 @@ params.fs_rate = 1.25;                  % Selected spatial feature threshold
 % ADMM parameters
 params.max_iterations = 2;
 params.init_penalty_factor = 1;
-params.max_penalty_factor = 0.1;
 params.penalty_scale_step = 5;
 
 % Scale parameters for the translation model
