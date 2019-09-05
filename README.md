@@ -3,14 +3,14 @@ Demo for Learning Adaptive Discriminative Correlation Filters (LADCF) via Tempor
 
 ## [Download the Paper](https://ieeexplore.ieee.org/document/8728173)
 >@article{xu2019learning,
- - title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking},
- - author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
- - journal={IEEE Transactions on Image Processing},
- - pages={5596--5609},
- - volume={28},
- - number={11},
- - year={2019}
-- }
+ title={Learning Adaptive Discriminative Correlation Filters via Temporal Consistency Preserving Spatial Feature Selection for Robust Visual Object Tracking},
+ author={Xu, Tianyang and Feng, Zhen-Hua and Wu, Xiao-Jun and Kittler, Josef},
+ journal={IEEE Transactions on Image Processing},
+ pages={5596--5609},
+ volume={28},
+ number={11},
+ year={2019}
+}
 
 ## The tracker codes for ICCV2019 can be [download here](https://github.com/XU-TIANYANG/GFS-DCF). 
 More group feature selection strategies are explored.
