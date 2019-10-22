@@ -51,7 +51,7 @@ function [ctheta_f, theta_pre_f, L] = train_filter(ctheta_f, xlf, yf, ...
                 L = 0;
             else  
             X_temp=X;
-            L{k} = max(0,1-mu./(numel(X)*sqrt(sum(X_temp.^2,3))));
+            L{k} = max(0,1-1./(mu*numel(X)*sqrt(sum(X_temp.^2,3))));
     
             [~,b] = sort(L{k}(:),'descend');
             L{k}(b(ceil(params.fs_rate(k)*1/params.search_area_scale^2*numel(b)):end)) = 0;
